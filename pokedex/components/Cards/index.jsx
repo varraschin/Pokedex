@@ -12,7 +12,7 @@ export default function Card({ pokemon }){
         <TouchableOpacity
         onPress={() => 
             router.push({ pathname: "/pokemon",
-                params: {...pokemon, Tipo: JSON.stringify(pokemon.tipo) },
+                params: {...pokemon, Tipo: JSON.stringify(pokemon.Tipo) },
             })
         }
         style={[styles.container,
@@ -27,7 +27,7 @@ export default function Card({ pokemon }){
                 ))}
             </ScrollView>
             </View>
-            <View style={styles.imageContiner}>
+            <View style={styles.imageContainer}>
                 <Image source={{ uri: pokemon.Imagem }} style={styles.imagem}/>
             </View>
         </TouchableOpacity>

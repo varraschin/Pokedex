@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
         fontWeight: '800',
         marginBottom: 5
     },
-    ImageContainer: {
+    imageContainer: {
         flex: 0.5,
         justifyContent: 'center',
         alignItems: 'center'

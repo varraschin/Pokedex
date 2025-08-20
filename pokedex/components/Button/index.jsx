@@ -19,7 +19,7 @@ export default function Button({tipo, large = false}){
 
     return (
         <View style={[styles.button, buttonStyle]}>
-            <Text style={[styles.buttonText, textStyle]}>{tipo.nome}</Text>
+            <Text style={[styles.buttonText, textStyle]}>{tipo.Nome}</Text>
         </View>
     );
 }
